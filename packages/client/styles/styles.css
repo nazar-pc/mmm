@@ -1,0 +1,29 @@
+body {
+    background: #000000 url('/images/moon-space.jpg') no-repeat;
+    cursor: pointer;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+#root {
+    height: 1024px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 1024px;
+}
+
+#root > .entity {
+    background-color: #000000;
+    border-radius: 10px;
+    cursor: crosshair;
+    height: 10px;
+    /* Hide by default */
+    left: -100px;
+    position: absolute;
+    /* Hide by default */
+    top: -100px;
+    transition: all 1s ease-in-out;
+    width: 10px;
+}

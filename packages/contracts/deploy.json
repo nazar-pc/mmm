@@ -1,4 +1,4 @@
 {
-  "components": ["CounterComponent"],
-  "systems": [{ "name": "IncrementSystem", "writeAccess": ["CounterComponent"] }]
+  "components": ["FormulaComponent", "PositionComponent"],
+  "systems": [{ "name": "CreateFormulaSystem", "writeAccess": ["FormulaComponent", "PositionComponent"] }]
 }
